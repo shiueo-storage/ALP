@@ -31,4 +31,5 @@ if guess < number:
 if guess > number:
     print("Too High!")
 
-# if user give a 5 as a input, it will print Correct! message, else, if bigger than 5, it will print too high, if less, then it will print too low.
+# if user give a 5 as a input, it will print Correct! message, else, if bigger than 5, it will print too high,
+# if less, then it will print too low.

@@ -5,7 +5,7 @@
 # Explain the circumstances in which the loop will run.
 
 print("What is the capital of France?")
-answer = input()  # ask the question and get the input from the user
+answer = input()  # ask and get the input from the user
 
 while (
     answer != "Paris"
