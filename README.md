@@ -4,7 +4,7 @@ Wisconsin-Madison Accelerated Learning Program
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://github.com/shiueo/SIET/blob/main/assets/icon.png?raw=true" alt="Project logo"></a>
+ <img width=400px height=200px src="./uw-logo.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Wisconsin-Madison Accelerated Learning Program: Topics about Computer Science</h3>
