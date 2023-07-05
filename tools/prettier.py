@@ -9,7 +9,6 @@ def code_format(path):
             for file in files:
                 if file.endswith(".py") and root.find("venv") == -1:
                     target_files.append(os.path.join(root, file))
-        print(target_files)
         for file in target_files:
             command = f"black {file}"
             print(command)
