@@ -1,4 +1,4 @@
-'''
+"""
 Task Instructions
 You are going to write a program called "Time Reminder"
 
@@ -15,26 +15,26 @@ Any other number is met with the response “Sorry, I don’t recognise that”
 
 
 You are free to use any of the methods that we have learned in class.
-'''
-#Start coding below this line
+"""
+# Start coding below this line
 n = int(input("give me a number between 0 and 23\n"))
-if n<0:
-  print("Sorry, I don’t recognise that")
+if n < 0:
+    print("Sorry, I don’t recognise that")
 elif n < 8:
-  print("too early to get up")
+    print("too early to get up")
 elif n < 12:
-  print("Good morning")
+    print("Good morning")
 elif n < 14:
-  print("Lunch time!")
+    print("Lunch time!")
 elif n < 18:
-  print("Good afternoon")
+    print("Good afternoon")
 elif n == 18:
-  print("Tea Time")
+    print("Tea Time")
 elif n < 20:
-  print("Good evening")
+    print("Good evening")
 elif n < 23:
-  print("Nearly bedtime")
+    print("Nearly bedtime")
 elif n == 23:
-  print("Good night!")
+    print("Good night!")
 else:
-  print("Sorry, I don’t recognise that")
+    print("Sorry, I don’t recognise that")

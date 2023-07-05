@@ -1,4 +1,4 @@
-'''
+"""
 Task - Which Room?
 ----------------------
 
@@ -9,18 +9,18 @@ The program should output a message telling the student by name which room to go
 
 You may use any method taught in class that is appropriate for this task. There is room for interpretation.
 
-'''
-#Start coding below
+"""
+# Start coding below
 n = ["computing", "mathematics", "algebra", "chemistry"]
 rooms = ["102", "150", "189", "2384"]
 
 name = input("Hi, What's your name?\n")
 subj = input("What's your favourite subject of studying?\n").lower()
-c=0
+c = 0
 for i in range(len(n)):
-  if subj == n[i]:
-    print(f"Hi {name}, go to room {rooms[i]} for {subj}")
-    break
-  c+=1
+    if subj == n[i]:
+        print(f"Hi {name}, go to room {rooms[i]} for {subj}")
+        break
+    c += 1
 if c == len(n):
-  print("I don't know which room that class is in")
+    print("I don't know which room that class is in")
