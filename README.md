@@ -1,7 +1,3 @@
-# ALP
-Wisconsin-Madison Accelerated Learning Program
-
-
 <p align="center">
   <a href="" rel="noopener">
  <img width=400px height=200px src="./uw-logo.png" alt="Project logo"></a>
